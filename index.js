@@ -1,4 +1,5 @@
 const { Client, GatewayIntentBits } = require('discord.js');
+process.env.DP_FORCE_YTDL_MOD = "play-dl";
 const { joinVoiceChannel, VoiceConnectionStatus, getVoiceConnection } = require('@discordjs/voice');
 const express = require('express');
 
